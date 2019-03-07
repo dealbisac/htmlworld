@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Colors HTML</title>
+        <meta name="description" content="Meta HTML tutorial">
+        <meta name="keywords" content="HTML,code,tags">
+        <meta name="author" content="Dipendra Bahahdur Chand">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <!-- 
+            Foreground color is used to change the color of an element's text.
+            Foreground color is specified like this color:orange;.
+
+            Foreground color can also (indirectly) affect the color of other parts 
+            of the element, including its border. This may or may not be the desired 
+            effect. However, it can always be overridden by explicitly specifying a 
+            color for the affected property.
+         -->
+         <h3 style="color:orange;">HTML Colors</h3>
+
+         <!-- Background color is specified like this: background-color:yellow -->
+         <h3 style="background-color:yellow;">I have a background color.</h3>
+
+         <!-- 
+             You can also specify several border properties in one go 
+             (rather than separating them into different declarations). 
+             You can do this using the border shortcut property, which allows you to 
+             specify the border's width, style, and color in one place.
+          -->
+          <h3 style="border:1px dashed orange;">I have a border color.</h3>
+
+          <!-- 
+              You can specify a color by its name (eg, blue), its hexadecimal value (eg, #0000ff), 
+              RGB value (eg rgb(0,0,255)), or its HSL value (eg hsl(240,100%,100%)).
+
+              Hexadecimal color codes are a combination of letters and numbers. 
+              The numbers go from 0 to 9 and the letters go from A to F.
+             When using hexadecimal color values in your HTML/CSS, you precede the value with a
+              hash (#).
+           -->
+
+           <h3 style="color:blue">Color Name</h3>
+           <h3 style="color:#0000ff">Hexadecimal</h3>
+           <h3 style="color:rgb(0,0,255)">RGB Value</h3>
+
+           
+           <h3 style="color:steelblue;">Color Name</h3>
+           <h3 style="color:#4682B4;">Hexadecimal</h3>
+           <h3 style="color:rgb(70,130,180)">RGB Value</h3>
+
+
+           <!-- 
+               You can also use alpha to specify the level of opacity the color should have. 
+               This is only available on RGB and HSL notations. To do this, add the letter "a" 
+               to the functional notation (i.e. RGBA and HSLA). For example, rgba(0,0,255,0.5) 
+               results in a semi-transparent blue, as does hsla(240, 100%, 50%, 0.5).
+            -->
+            <h3 style="background-color:rgba(0,0,255,1)">No transparancy</h3>
+            <h3 style="background-color:rgba(0,0,255,0.5)">Half transparancy</h3>
+            <h3 style="background-color:rgba(0,0,255,0.1)">Lots of transparancy</h3>
+
+            <h3 style="background-color:hsla(240, 100%, 50%, 1)">No transparancy</h3>
+            <h3 style="background-color:hsla(240, 100%, 50%, 0.5)">Half transparancy</h3>
+            <h3 style="background-color:hsla(240, 100%, 50%, 0.1)">Lots of transparancy</h3>
+
+
+    </body>
+</html>
